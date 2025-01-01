@@ -15,3 +15,4 @@
 ## Advanced Features:
 ### 11)Download Images: Allows users to download shared media.
 ### 12)Search User: Helps users find others by username or other criteria.
+### 13)Side image preview
