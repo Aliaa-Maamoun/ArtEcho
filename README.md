@@ -1,18 +1,67 @@
-# ArtEcho
-## Core Features:
-### 1)Signup: Allows new users to register.
-### 2)Sign in and Logout: Enables users to log in to their accounts and securely log out.
-### 3)Account Settings: Lets users manage their profile information, privacy settings, and preferences.
-## Content Management Features:
-### 4)Uploading Post: Enables users to create and share content (e.g., text, images, videos).
-### 5)Post Feed: Displays posts from users or communities the user follows.
-### 6)Like Post: Allows users to interact with posts by liking them.
-### 7)Post Feed Updated: Ensures the feed dynamically shows new posts.
-## Social Interaction Features:
-### 8)Profile Page: A dedicated page showcasing a user’s posts, information, and activities.
-### 9)Follow and Unfollow User: Lets users build a network by following others or unfollowing them.
-### 10)User Suggestions: Recommends users to follow, based on interests or connections.
-## Advanced Features:
-### 11)Download Images: Allows users to download shared media.
-### 12)Search User: Helps users find others by username or other criteria.
-### 13)Side image preview
+# ArtEcho 🌟
+
+**ArtEcho** is a **social media platform** designed to help **creatives connect, share, and grow together**.  
+Whether you’re a photographer, designer, or storyteller, ArtEcho lets you showcase your art, follow like-minded people, and discover a rich community of creativity.
+
+---
+
+## 🔹Features
+
+### 🔐 User Authentication
+- **Signup:** Allows new users to register and create an account.
+- **Login and Logout:** Enables existing users to securely sign in and sign out.
+- **Account Settings:** Lets users manage their profile, privacy, and preferences.
+
+---
+
+### 📝 Content Management
+- **Uploading Posts:** Enables users to create and share content (images, text, or video).
+- **Post Feed:** Displays a dynamic feed of posts from people you follow.
+- **Like Posts:** Allows users to appreciate content by clicking the “like” button.
+- **Post Feed Updated:** The feed refreshes to show newly added posts in real time.
+
+---
+
+### 👥 Social Interaction
+- **Profile Page:** Shows a user's portfolio — their posts, profile info, and activity.
+- **Follow/Unfollow User:** Enables you to follow people you find interesting or unfollow when you lose interest.
+- **User Suggestions:** Recommends profiles to follow based on your network and preferences.
+
+---
+
+### ⚙ Advanced Features
+- **Download Images:** Allows you to download photos directly from a post.
+- **Search User:** Helps you find people by their usernames or other criteria.
+- **Side Image Preview:** Shows a preview of an image alongside content.
+
+---
+
+## 🔹Tech Stack (Example)
+
+- **Framework:** Django
+- **Database:** SQLite (for development), Postgres (for production, optional)  
+- **Front-end:** HTML, CSS, JavaScript, Bootstrap
+- **Other:** Pillow (for image handling), Django Auth, User Model, CSRF Protection
+
+---
+
+## 🔹Installation (Steps)
+
+```bash
+git clone https://github.com/yourUsername/artecho.git
+cd artecho
+python -m venv venv
+source venv/Scripts/activate  # Windows
+source venv/bin/activate  # Mac/Linux
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+## 🔹Usage
+➥ Signup or login to view your feed.  
+➥ Update your profile and follow people you find interesting.  
+➥ Upload and share your own photos, videos, or messages.  
+➥ Like, follow, search, and connect with the community.
+
+## 🔹License
+This project is licensed under the MIT License.
